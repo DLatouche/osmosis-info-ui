@@ -1,7 +1,7 @@
 import * as React from "react";
 import { SVGProps } from "react";
 
-const OverviewSvg = (props: SVGProps<SVGSVGElement>) => (
+export const OverviewSvg = (props: SVGProps<SVGSVGElement>) => (
 	<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" {...props}>
 		<path
 			fillRule="evenodd"
@@ -10,5 +10,3 @@ const OverviewSvg = (props: SVGProps<SVGSVGElement>) => (
 		/>
 	</svg>
 );
-
-export default OverviewSvg;

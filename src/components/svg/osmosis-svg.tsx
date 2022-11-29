@@ -1,7 +1,7 @@
 import * as React from "react";
 import { SVGProps } from "react";
 
-const OsmosisSvg = (props: SVGProps<SVGSVGElement>) => (
+export const OsmosisSvg = (props: SVGProps<SVGSVGElement>) => (
 	<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}>
 		<g clipPath="url(#a)">
 			<path d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16 16-7.163 16-16S24.837 0 16 0Z" fill="url(#b)" />
@@ -80,5 +80,3 @@ const OsmosisSvg = (props: SVGProps<SVGSVGElement>) => (
 		</defs>
 	</svg>
 );
-
-export default OsmosisSvg;

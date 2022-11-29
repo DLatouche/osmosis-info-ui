@@ -4,4 +4,4 @@ export * from "./buttons/icon-button/icon-button";
 export * from "./dialog/dialog";
 export * from "./paper/paper";
 export * from "./popover/popover";
-export * from "./svg/";
+export * from "./svg";

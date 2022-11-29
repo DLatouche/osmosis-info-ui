@@ -1,14 +1,7 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 
-import DashboardSvg from "./dashboard-svg";
-import MenuSvg from "./menu-svg";
-import TokensSvg from "./tokens-svg";
-import LeftSvg from "./left-svg";
-import OsmosisSvg from "./osmosis-svg";
-import OverviewSvg from "./overview-svg";
-import PoolSvg from "./pool-svg";
-import SettingsSvg from "./settings-svg";
+import { SettingsSvg, DashboardSvg, MenuSvg, TokensSvg, LeftSvg, OsmosisSvg, OverviewSvg, PoolSvg } from "./";
 
 export default {
 	title: "Assets/Icons",

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { SVGProps } from "react";
 
-const PoolSvg = (props: SVGProps<SVGSVGElement>) => (
+export const PoolSvg = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		viewBox="0 0 24 24"
 		xmlns="http://www.w3.org/2000/svg"
@@ -18,5 +18,3 @@ const PoolSvg = (props: SVGProps<SVGSVGElement>) => (
 		<path d="M21.48 9.655c0 2.209-1.927 4.002-4.302 4.002-2.375 0-4.302-1.793-4.302-4.002 0-2.21 3.39-7.655 4.302-7.655.915 0 4.302 5.445 4.302 7.655Z" />
 	</svg>
 );
-
-export default PoolSvg;
