@@ -5,7 +5,7 @@ import React from "react";
  */
 
 export interface ButtonProps {
-	onClick: React.MouseEventHandler<HTMLDivElement> | undefined;
+	onClick?: React.MouseEventHandler<HTMLDivElement>;
 	/** Classname passed to the button.*/
 	className?: string;
 	/** Text to display on the button.*/
