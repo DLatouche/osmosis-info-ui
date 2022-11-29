@@ -1,4 +1,5 @@
 import React from "react";
+import { createPortal } from "react-dom";
 
 /**
  * Backdrop is used for dialog, dropdown menu, popover...
@@ -16,12 +17,13 @@ export interface BackdropProps {
 }
 
 export const Backdrop = ({ children, className, open, onClick }: BackdropProps) => {
-	const classNameDefault = `fixed inset-0 overflow-hidden `;
+	const classNameDefault = `fixed inset-0 overflow-hidden`;
 	const classNameOpen = `${classNameDefault} ${className} z-50 opacity-100 dialogTransitionOpen`;
 	const classNameClose = `${classNameDefault} ${className} -z-50 opacity-0 dialogTransitionClose`;
-	return (
+	return createPortal(
 		<div onClick={onClick} className={open ? classNameOpen : classNameClose}>
 			{children}
-		</div>
+		</div>,
+		document.body
 	);
 };

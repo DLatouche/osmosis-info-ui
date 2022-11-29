@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { IconButton } from "./icon-button";
-import SettingsSvg from "../../svg/settings-svg";
+import { SettingsSvg } from "../../svg";
 
 export default {
 	title: "Components/Inputs/Buttons/IconButton",
